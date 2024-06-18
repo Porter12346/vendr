@@ -7,7 +7,7 @@ class ObservableAppState extends EventEmitter {
   /**@type {import('./models/Example.js').Example[]} */
   examples = []
 
-  balance = 20
+  balance = 0
 
   items = [
     new Item('MTN DEW', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpPTuWaelpUi7lHfuNnih2uRZK2mX87OlOTg&s', 1.00),

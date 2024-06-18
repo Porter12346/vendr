@@ -1,1 +1,5 @@
 /* BASIC STYLES HERE */
+.img-rotate {
+    transform: rotate(-0.25turn);
+    width: 25%;
+}
