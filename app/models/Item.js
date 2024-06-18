@@ -13,7 +13,7 @@ export class Item {
         src="${this.img}"
         alt="${this.name}" class="img-fluid my-2">
         </img>
-        <button class="btn btn-primary my-2 mx-5">$${this.price}</button>
+        <button onclick="app.ItemsController.buyItem('${this.name}')" class="btn btn-primary my-2 mx-5">$${this.price.toFixed(2)}</button>
     </div>`)
     }
 }
